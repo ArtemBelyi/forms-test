@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="./style.css">
     <title>Document</title>
 </head>
@@ -12,77 +13,71 @@
         <div class="wrap">
             <div class="modal">
                 <div class="modal__section-1">
-                    <div class="modal__section-1_content"></div>
+                    <div class="modal__section-1_content">
+                        <div class="logo">
+                            <img src="./img/logo.svg" alt="bg" class="logo__bg">
+                        </div>
+                    </div>
                 </div>
                 <div class="modal__section-2">
-                    <div class="modal__section-2_content">
-                        <div class="register">
-                            <div class="tilte">
-                                <div class="title__caption">
-                                    Get iintoo it today
-                                </div>
-                                <div class="title__slogan">
-                                    There is no charge or obligation ipon registration
-                                </div>
-                            </div>
-                            <div class="socials">
-                                <div class="social__facebook">
-                                    <div class="social__facebook-logo">
-                                        <img src="./img/facebook.svg" alt="facebook-logo">
+                    <div class="modal__section_content">
+                        <div class="container">
+                            <div class="register">
+                                <div class="tilte">
+                                    <div class="title__caption">
+                                        Get iintoo it today
                                     </div>
-                                    <div class="social__facebook-desk">
-                                        Register with Facebook
+                                    <div class="title__slogan">
+                                        There is no charge or obligation ipon registration
                                     </div>
                                 </div>
-                                <div class="social__linkedin">
-                                    <div class="social__linkedin-logo">
-                                        <img src="./img/linkedin.svg" alt="linkedin-logo">
+                                <div class="socials">
+                                    <div class="socials__facebook">
+                                        <a href="#" class="fa fa-facebook"> Register with Facebook</a>
                                     </div>
-                                    <div class="social__linkedin-desk">
-                                        Register with Linkedin
+                                    <div class="socials__linkedin">
+                                        <a href="#" class="fa fa-linkedin"> Register with Linkedin</a>
                                     </div>
                                 </div>
                             </div>
-                        
-                        </div>
-                        <div class="form">
-                            <form class="form-content" action="https://google.com" method="GET">
-                                <div class="contaier">
-                                    <div class="section-input">
-                                        <input type="text" class="section-input__email section-input__email--active" value="abelyi467@gmail.com">
-                                        <input type="text" class="section-input__phone">
-                                    </div>
-                                    <div class="tilte">
-                                        <div class="title__caption title__caption--medium">
-                                            What type of investor are you?
+                            <div class="form">
+                                <form class="form-content" action="https://google.com" method="GET">
+                                    <div class="contaier">
+                                        <div class="section-input">
+                                            <input type="text" class="section-input__email section-input__email--active" value="abelyi467@gmail.com">
+                                            <input type="text" class="section-input__phone">
                                         </div>
-                                        <div class="title__slogan title__slogan--medium">
-                                            Select the type of investor you are below.
+                                        <div class="tilte">
+                                            <div class="title__caption title__caption--medium">
+                                                What type of investor are you?
+                                            </div>
+                                            <div class="title__slogan title__slogan--medium">
+                                                Select the type of investor you are below.
+                                            </div>
+                                        </div>
+                                        <div class="radio-list">
+                                            <input type="radio" class="radio-list__item radio-list__item--active" name="individual" value="individual" id="choice1">
+                                            <label for="choice1">Individual</label>
+        
+                                            <input type="radio" class="radio-list__item" name="business" value="business" id="choice2">
+                                            <label for="choice1">Business</label>
+        
+                                            <input type="radio" class="radio-list__item" name="IRA" value="IRA" id="choice3">
+                                            <label for="choice1">IRA</label>
+        
+                                            <input type="radio" class="radio-list__item" name="Trust" value="Trust" id="choice3">
+                                            <label for="choice1">Trust</label>
+                                        </div>
+                                        <div class="agree">
+                                            <input class="agree__checkbox" type="checkbox" name="option2" value="a2">
+                                            I agree to the terms and receiving notifications from iintro <a href="#">View full terms</a>
+                                        </div>
+                                        <div class="submit">
+                                            <button class="submit-button" type="submit">Create Account</button>
                                         </div>
                                     </div>
-                                    <div class="radio-list">
-                                        <input type="radio" class="radio-list__item radio-list__item--active" name="individual" value="individual" id="choice1">
-                                        <label for="choice1">Individual</label>
-    
-                                        <input type="radio" class="radio-list__item" name="business" value="business" id="choice2">
-                                        <label for="choice1">Business</label>
-    
-                                        <input type="radio" class="radio-list__item" name="IRA" value="IRA" id="choice3">
-                                        <label for="choice1">IRA</label>
-    
-                                        <input type="radio" class="radio-list__item" name="Trust" value="Trust" id="choice3">
-                                        <label for="choice1">Trust</label>
-                                    </div>
-                                    <div class="agree">
-                                        <input class="agree__checkbox" type="checkbox" name="option2" value="a2">
-                                        I agree to the terms and receiving notifications from iintro <a href="#">View full terms</a>
-                                    </div>
-                                    <div class="submit">
-                                        <button class="submit-button" type="submit">Create Account</button>
-                                    </div>
-                                </div>
-                            </form>
-
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>

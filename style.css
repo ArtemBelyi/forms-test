@@ -1,0 +1,27 @@
+body {
+    background-color:#EFF6FF;
+}
+
+.modal {
+    display: flex;
+    margin: 100px 50px 100px 50px;
+    justify-content: center;
+    flex-wrap: nowrap;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 20px 1px #dbdbdb;
+}
+.modal__section-1 {
+    width: 50%;
+    height: 100vh;
+    background: url("./img/bg.jpg") no-repeat;
+    background-size: cover;
+}
+.logo {
+    margin: 8% 0% 0% 8%;
+}
+.logo__bg{
+    width: 20%;
+}
+.modal__section-2 {
+    width: 50%;
+}
