@@ -23,7 +23,7 @@
                     <div class="modal__section_content">
                         <div class="container">
                             <div class="register">
-                                <div class="tilte">
+                                <div class="title">
                                     <div class="title__caption">
                                         Get iintoo it today
                                     </div>
@@ -49,29 +49,39 @@
                                 <form class="form-content" action="https://google.com" method="GET">
                                     <div class="contaier">
                                         <div class="section-input">
-                                            <input type="text" class="section-input__email section-input__email--active" value="abelyi467@gmail.com">
+                                            <input type="email" class="section-input__email section-input__email--active" value="abelyi467@gmail.com">
                                             <input type="text" class="section-input__phone">
                                         </div>
-                                        <div class="tilte">
+                                        <div class="title">
                                             <div class="title__caption title__caption--medium">
                                                 What type of investor are you?
                                             </div>
                                             <div class="title__slogan title__slogan--medium">
-                                                Select the type of investor you are below.
+                                                <span>Select the type of investor you are below.</span>
                                             </div>
                                         </div>
                                         <div class="radio-list">
-                                            <input type="radio" class="radio-list__item radio-list__item--active" name="name" value="individual" id="choice1">
-                                            <label for="choice1">Individual</label>
-        
-                                            <input type="radio" class="radio-list__item" name="name" value="business" id="choice2">
-                                            <label for="choice1">Business</label>
-        
-                                            <input type="radio" class="radio-list__item" name="name" value="IRA" id="choice3">
-                                            <label for="choice1">IRA</label>
-        
-                                            <input type="radio" class="radio-list__item" name="name" value="Trust" id="choice3">
-                                            <label for="choice1">Trust</label>
+                                            <div class="radio-list__item">
+                                                <input type="radio" name="name" value="individual" id="choice1" checked>
+                                                <label for="choice1">Individual</label>
+                                            </div>
+                                            <div class="radio-list__item">
+                                                <input type="radio" name="name" value="business" id="choice2">
+                                                <label for="choice1">Business</label>
+                                            </div>
+                                            
+                                            <div class="radio-list__item">
+                                                <input class="radio-list__item" type="radio" name="name" value="IRA" id="choice3">
+                                                <label class="radio-list__label" for="choice1">IRA</label>
+                                            </div>
+                                            
+                                            <div class="radio-list__item">
+                                                <input class="radio-list__item" type="radio" name="name" value="Trust" id="choice3">
+                                                <label class="radio-list__label" for="choice1">Trust</label>
+                                            </div>
+                                        </div>
+                                        <div class="radio-desc">
+                                            <span>I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common</span>
                                         </div>
                                         <div class="agree">
                                             <input class="agree__checkbox" type="checkbox" name="option2" value="a2" id="agree">
