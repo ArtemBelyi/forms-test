@@ -77,7 +77,7 @@ body {
 .socials-list {
     display: flex;
     width: 100%;
-    justify-content:space-between;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 .socials-list__item {
@@ -135,18 +135,38 @@ body {
 .radio-list {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 120px;
 }
-@media (max-width: 1399px) {
-    .radio-list {
-      display: block;
+@media (max-width: 1320px) {
+    .modal__section-1 {
+        width: 45%;
+    }
+    .modal__section-2 {
+        width: 55%;
+        min-width: 380px;
     }
 }
-.radio-desc {
-    width: 40%;
-    margin: 20px 0 40px 0;
-    padding: 10px;
-    font-size: 12px;
-    box-shadow: 2px 2px 8px 2px #dbdbdb;
+@media (max-width: 1440px) {
+    .container {
+        padding: 40px 40px 40px 40px;
+    }
+}
+@media (max-width: 1850px) {
+    .socials-list__item {
+        width: 220px;
+        height: 38px;
+    }
+    .section-input__item {
+        width: 220px;
+        height: 42px;
+    }
+    .modal__section-1 {
+        width: 55%;
+    }
+    .modal__section-2 {
+        width: 45%;
+        min-width: 380px;
+    }
 }
 .agree {
     font-size: 12px;
@@ -171,3 +191,26 @@ body {
     cursor: pointer;
     width: 270px;
 }
+.tip-block {
+    display: inline-block;
+    position: relative;
+  }
+  #choice1:checked ~ * .tip {
+      display: block;
+  }
+  .tip,
+  .support::before {
+     display: none;
+     position: absolute;
+     z-index: 9998;
+     text-align: left;
+     cursor: default;
+     padding: 10px;
+     margin: 20px 0 0 -100px; 
+     width: 200px;
+     font-size: 12px;
+     box-shadow: 2px 2px 8px 2px #dbdbdb;
+  }
+  .support {
+    cursor: pointer;
+  }
